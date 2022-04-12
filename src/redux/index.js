@@ -1,5 +1,5 @@
 const INITIAL_STATE={
-    userName:"A"
+    userName:"a"
 }
 
 const reducer=(state = INITIAL_STATE, action)=>{

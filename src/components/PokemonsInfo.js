@@ -18,7 +18,7 @@ const PokemonsInfo = () => {
     useEffect(()=>{
         axios.get(`${urlBase}${id}/`)
             .then(res => setPokemon(res.data))
-                .catch(error => setError(error))
+
             
     },[id])
 

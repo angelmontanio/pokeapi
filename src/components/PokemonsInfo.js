@@ -8,8 +8,6 @@ import ProgressBar from './ProgressBar';
 
 const PokemonsInfo = () => {
 
-    const  [error,setError]=useState("");
-
     const [pokemon,setPokemon]=useState({});
 
     const {id} = useParams();
